@@ -1,0 +1,9 @@
+.menu-activity::after {
+  @apply absolute w-28 h-0.5 bg-teal-500 -bottom-[10px] left-0;
+  content: "";
+}
+.after-project-header::after {
+  @apply absolute w-full h-0.5 bg-slate-200 dark:bg-slate-800 -bottom-3
+   right-0 left-0;
+  content: "";
+}
